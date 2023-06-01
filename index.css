@@ -1,0 +1,153 @@
+body {
+    background-color: rgb(43, 40, 40);
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: blue;
+    border: 2px solid white;
+    padding: 2em;
+    margin: 5em;
+    
+}
+
+a:visited {
+    color: blueviolet;
+}
+
+a:hover {
+    color: rgb(192, 133, 56);
+    background-color: black; 
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    letter-spacing: 1em;
+}
+
+#mail {
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+    letter-spacing: 0.3em;
+
+}
+
+#prof {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    margin: 10em 5em 5em 5em;
+    border: 5px dotted rgb(163, 152, 152);
+    border-radius: 2em;
+}
+  
+#prof img {
+    height: 300px;
+}
+
+#prof h2 {
+    text-align: center;
+    font-size: 2.5em;
+    color: rgba(128, 74, 74, 0.664);
+
+}
+
+#cont {
+    font-size: 1.5em;
+    color: rgb(128, 74, 74);
+    text-indent: 1.5rem;
+    text-align: justify;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+#qual {
+    /* background-color: rgb(54, 54, 54); */
+    color: rgb(116, 74, 74);
+    text-align: center;
+    padding: 2em;
+}
+
+ul {
+    list-style-type: none;
+    font-size: 1.5em;
+}
+
+#qual h2 {
+    font-size: 2em;
+}
+#qual h3 {
+    font-size: 1.5em;
+}
+
+#expe {
+    border: 5px solid rgb(133, 123, 123);
+    border-radius: 20px;
+    text-align: center;
+    margin: 2em 10em 2em 10em;
+    padding: 3em;
+   
+}
+
+#lang {
+    text-align: center;
+    margin: 0;
+}
+
+#lang p {
+    font-size: 1.5em;
+}
+
+#image {
+    margin-left: 20em;
+}
+
+
+img {
+    border-radius: 15px;
+}
+button {
+    border-radius: 10px;
+    padding: 0;
+    background-color: black;
+    
+}
+
+
+/* #dem {
+     float: left; 
+} */
+
+/* #qual {
+    border: 2px solid red;
+    background-color: rgb(129, 124, 116);
+    width: 30%;
+    float: left;
+    padding: 2em;
+    margin: 2em;
+
+}
+
+/* #flt-right {
+    width: 15%;
+    float: left;
+} */
+
+/* #expe {
+    border: 2px solid red;
+    background-color: rgb(129, 124, 116);
+    width: 30%;
+    float: left;
+  /*   padding: 2em;
+    margin: 2em; 
+
+
+} */
+
+
